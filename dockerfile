@@ -26,7 +26,7 @@ RUN mkdir -p /home/node/app/.next/cache/images && chown -R node:node /home/node/
 USER node
 
 # Expose the port the app runs on
-EXPOSE 8080
+EXPOSE 7855
 
 # Command to run the application
 CMD [ "npm", "start" ]
